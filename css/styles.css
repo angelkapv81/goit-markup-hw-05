@@ -50,6 +50,8 @@ h2 {
 .contactfooter,
 .contactfooter-tel {
   text-decoration: none;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 :root {
   --text-color: #757575;
@@ -115,6 +117,8 @@ h2 {
   color: var(--title-color);
   padding: 32px 0;
   display: block;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 .site-nav-contact {
   display: flex;
@@ -127,6 +131,9 @@ h2 {
   color: var(--text-color);
   padding: 32px 0;
   vertical-align: middle;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
+
 }
 .contact-top {
   fill: currentColor;
@@ -199,6 +206,8 @@ h2 {
   line-height: 1.88;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 
 .hero-button:hover,
@@ -356,6 +365,8 @@ h2 {
   line-height: 1.63;
   border: 0;
   border-radius: 4px;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 .main-bt-portfolio {
   margin-bottom: 50px;
@@ -411,6 +422,10 @@ h2 {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
+.card-thumb {
+animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
+  }
 .card-thumb:hover {
   cursor: pointer;
   box-shadow: 
@@ -459,7 +474,13 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   border: 0;
+  /* animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms; */
 }
+/* .contactfooter {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
+} */
 .contactfooter:hover,
 .contactfooter:focus,
 .contactfooter-tel:hover,
@@ -481,6 +502,8 @@ h2 {
   fill: var(--logo-network-color);
   justify-content: center;
   align-items: center;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 .item-network:not(:last-child) {
   margin-right: 10px;
@@ -512,7 +535,9 @@ h2 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: var(--logo-network-color);
-}
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
+  }
 .link-logo:hover {
   cursor: pointer;
   border: 1px solid var(--accent-color);
@@ -561,6 +586,8 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 .footer-network:not(:last-child) {
   margin-right: 10px;
