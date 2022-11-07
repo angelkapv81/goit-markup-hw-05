@@ -75,6 +75,12 @@ h2 {
 
   --item-work-gap: 30px;
 }
+
+/* .link::after:active {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--accent-color);
+} */
+
 .contact:focus,
 .contact:hover {
   cursor: pointer;
@@ -474,13 +480,8 @@ animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 14px;
   line-height: 1.71;
   border: 0;
-  /* animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   transition-duration: 250ms; */
-}
-/* .contactfooter {
-  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   transition-duration: 250ms;
-} */
+ }
+
 .contactfooter:hover,
 .contactfooter:focus,
 .contactfooter-tel:hover,
