@@ -140,6 +140,8 @@ h2 {
   margin-left: 50px;
 }
 .contact {
+  display: flex;
+  align-items: center;
   color: var(--text-color);
   padding: 32px 0;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -148,7 +150,6 @@ h2 {
 .contact-top {
   fill: currentColor;
   margin-right: 10px;
-  vertical-align: middle;
 }
 
 .footer {
@@ -243,13 +244,14 @@ h2 {
   width: 370px;
   background-color: rgba(47, 48, 58, 0.8);
   bottom: 0;
+  align-items: center;
+  justify-content: center;
 }
 .images-name {
   color: var(--hero-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin: auto;
 }
 .team {
   display: flex;
@@ -447,7 +449,8 @@ h2 {
   opacity: 1;
   transform: translateY(-100%);
 }
-.card:focus .windows {
+
+.item-work .card:focus .work-name {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
@@ -467,7 +470,6 @@ h2 {
   overflow: hidden;
 }
 .work .item-work:hover {
-  cursor: pointer;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
@@ -506,7 +508,7 @@ h2 {
 .contactfooter-tel:focus {
   cursor: pointer;
   color: var(--accent-color);
-  }
+}
 .network {
   display: flex;
   justify-content: center;
